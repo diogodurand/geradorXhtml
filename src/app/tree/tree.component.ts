@@ -16,26 +16,10 @@ export class TreeComponent implements OnInit {
   constructor(private nodeService: NodeService) {}
 
   ngOnInit() {
-        this.nodeService.getFiles().then(files => this.filesTree7 = files);
-    //    this.nodeService.getFiles().then(files => this.filesTree8 = files);
+          this.nodeService.getFiles().then(files => this.filesTree7 = files);
+          this.nodeService.getFiles().then(files => this.filesTree8 = files);
     //    this.nodeService.getFiles().then(files => this.filesTree9 = files);
 
-    this.filesTree8 = [
-      {
-        label: "Backup",
-        data: "Backup Folder",
-        expandedIcon: "fa-folder-open",
-        collapsedIcon: "fa-folder"
-      }
-    ];
-    this.filesTree9 = [
-      {
-        label: "Backup",
-        data: "Backup Folder",
-        expandedIcon: "fa-folder-open",
-        collapsedIcon: "fa-folder"
-      }
-    ];
   }
 
   onClick() {

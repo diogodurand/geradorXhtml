@@ -2,7 +2,7 @@
 <div class="ui-g ui-fluid" style="height: 350px;">
     <div class="ui-g-12 ui-md-3">
         <h4>Componentes</h4>
-        <p-tree [value]="filesTree7" draggableNodes="true" droppableNodes="true" dragdropScope="files" (onNodeDrop)="nodeDrop($event)"></p-tree>
+        <p-tree [value]="filesTree7" draggableNodes="true" droppableNodes="true" dragdropScope="files" (onNodeDrop)="nodeDrop($event)" (onNodeDrag)="nodeDrop($event)"></p-tree>
     </div>
 
     <div class="ui-g-12 ui-md-1" style="text-align:center">

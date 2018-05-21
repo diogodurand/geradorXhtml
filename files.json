@@ -29,6 +29,14 @@
 							]
 						}
 					]
+				},{
+					"label": "children",
+					"data": "Filhos",
+					"expandedIcon": "fa-folder-open",
+					"collapsedIcon": "fa-folder",
+					"draggable": false,
+					"droppable": false,
+					"children": [{}]
 				}
 			]
 		}
