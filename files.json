@@ -1,0 +1,36 @@
+{
+	"componentes": [
+		{
+			"label": "PanelGrid",
+			"data": "<awb-h:panelGrid $propriedades> $conteudo </awb-h:panelGrid>",
+			"expandedIcon": "fa-folder-open",
+			"collapsedIcon": "fa-folder",
+			"children": [
+				{
+					"label": "configuracao",
+					"data": "$propriedades",
+					"expandedIcon": "fa-folder-open",
+					"collapsedIcon": "fa-folder",
+					"draggable": false,
+					"droppable": false,
+					"children": [
+						{
+							"label": "columns",
+							"data": "Quantidade de colunas no panel",
+							"expandedIcon": "fa-folder-open",
+							"collapsedIcon": "fa-folder",
+							"draggable": false,
+							"droppable": false,
+							"children": [
+								{
+									"label": "2",
+									"draggable": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
