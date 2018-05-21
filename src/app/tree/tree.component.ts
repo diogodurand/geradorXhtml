@@ -44,4 +44,8 @@ export class TreeComponent implements OnInit {
     confirm("Just Testing");
   }
 
+  nodeDrop(event) {
+    this.nodeService.getFiles().then(files => this.filesTree7 = files);
+  }
+
 }
